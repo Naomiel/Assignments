@@ -1,0 +1,39 @@
+*{
+    margin:0;
+    padding:0;
+  }
+  
+  body{
+    background-color: #b8b7b7;
+    display: flex;
+    place-items: center;
+    min-height: 100vh;
+  }  
+  
+  main{
+   display:grid;
+  /* grid template area will determine the layout */
+    grid-template-areas: 
+   'a a b'
+   'c d d'
+   'c e e'
+    ;  
+    gap: 10px; 
+    width:50%;
+    margin:auto;
+    grid-template-rows: 200px 100px 100px;
+  }
+  .info {
+    width: auto;
+    height: auto;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    font-weight: 700;
+    border: none;
+    box-shadow: 0 5px 15px #000;
+    display: inline-flex;
+  }
+  
